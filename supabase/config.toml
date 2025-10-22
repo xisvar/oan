@@ -1,0 +1,4 @@
+project_id = "vjehyzcskdfxqadkwyfa"
+
+[functions.send-partner-form]
+verify_jwt = false
