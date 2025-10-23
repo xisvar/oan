@@ -110,10 +110,10 @@ const Hero = () => {
             </div>
             
             <h1 
-              className="section-title text-3xl sm:text-4xl lg:text-5xl xl:text-6xl leading-tight opacity-0 animate-fade-in" 
+              className="section-title text-6xl sm:text-6xl lg:text-5xl xl:text-6xl leading-tight opacity-0 animate-fade-in" 
               style={{ animationDelay: "0.3s" }}
             >
-              Open Admissions<br className="hidden sm:inline" />Network
+              Open Admissions <br className="hidden sm:inline"/>Network
             </h1>
             
             <p 

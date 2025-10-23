@@ -55,7 +55,7 @@ const Navbar = () => {
           aria-label="Open Admissions Network"
         >
           <img 
-            src="/logof.svg" 
+            src="/logof.png" 
             alt="OAN Logo" 
             className="h-9 sm:h-8" 
           />
