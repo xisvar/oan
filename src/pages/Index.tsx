@@ -1,8 +1,7 @@
-
 import React, { useEffect } from "react";
 import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
-import HumanoidSection from "@/components/HumanoidSection";
+import ProblemSection from "@/components/ProblemSection";
 import SpecsSection from "@/components/SpecsSection";
 import DetailsSection from "@/components/DetailsSection";
 import ImageShowcaseSection from "@/components/ImageShowcaseSection";
@@ -11,6 +10,7 @@ import Testimonials from "@/components/Testimonials";
 import Newsletter from "@/components/Newsletter";
 import MadeByHumans from "@/components/MadeByHumans";
 import Footer from "@/components/Footer";
+import TrustSection from "@/components/TrustSection";
 
 const Index = () => {
   // Initialize intersection observer to detect when elements enter viewport
@@ -26,10 +26,10 @@ const Index = () => {
       },
       { threshold: 0.1 }
     );
-    
+
     const elements = document.querySelectorAll(".animate-on-scroll");
     elements.forEach((el) => observer.observe(el));
-    
+
     return () => {
       elements.forEach((el) => observer.unobserve(el));
     };
@@ -40,16 +40,16 @@ const Index = () => {
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
       anchor.addEventListener('click', function (e) {
         e.preventDefault();
-        
+
         const targetId = this.getAttribute('href')?.substring(1);
         if (!targetId) return;
-        
+
         const targetElement = document.getElementById(targetId);
         if (!targetElement) return;
-        
+
         // Increased offset to account for mobile nav
         const offset = window.innerWidth < 768 ? 100 : 80;
-        
+
         window.scrollTo({
           top: targetElement.offsetTop - offset,
           behavior: 'smooth'
@@ -63,7 +63,7 @@ const Index = () => {
       <Navbar />
       <main className="space-y-4 sm:space-y-8"> {/* Reduced space on mobile */}
         <Hero />
-        <HumanoidSection />
+        <ProblemSection />
         <SpecsSection />
         <DetailsSection />
         <ImageShowcaseSection />
