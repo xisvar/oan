@@ -31,10 +31,10 @@ const Navbar = () => {
   };
 
   const navLinks = [
-    { name: "Home", href: "#", action: scrollToTop },
+    { name: "Home", href: "../"},
     { name: "Whitepaper", href: "/OAN.pdf" },
-    { name: "About", href: "#features" },
-    { name: "Contact", href: "#details" },
+    { name: "About", href: "/#features" },
+    { name: "Contact", href: "/#details" },
   ];
 
   return (

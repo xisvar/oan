@@ -116,7 +116,7 @@ const Hero = () => {
               </a>
 
               <a
-                href="#learn-more"
+                href="/learn-more"
                 className="inline-flex items-center justify-center px-8 py-4 text-base font-medium text-foreground transition-all duration-200 bg-white/50 dark:bg-white/5 border border-border rounded-full hover:bg-white/80 dark:hover:bg-white/10 backdrop-blur-sm hover:shadow-md"
               >
                 Learn more
@@ -153,7 +153,7 @@ const Hero = () => {
                     alt="Open Admissions Network Platform"
                     className="w-full h-auto object-cover rounded-3xl transform transition-transform duration-700 hover:scale-105"
                   />
-                  {/* Floating Elements */}                  
+                  {/* Floating Elements */}
                   <div className="absolute -bottom-6 -left-6 p-4 bg-white dark:bg-gray-900 rounded-2xl shadow-xl border border-border z-20 animate-float">
                     <div className="flex items-center gap-3">
                       <div className="w-10 h-10 rounded-full bg-green-100 dark:bg-green-900/30 flex items-center justify-center text-green-600 dark:text-green-400">
