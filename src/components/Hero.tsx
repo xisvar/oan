@@ -146,15 +146,15 @@ const Hero = () => {
                   />
                 </div>
               ) : (
-                <div className="relative rounded-3xl overflow-hidden shadow-2xl group">
-                  <div className="absolute inset-0 bg-gradient-to-tr from-pulse-500/20 to-purple-500/20 mix-blend-overlay z-10 transition-opacity duration-500 group-hover:opacity-0" />
+                <div className="relative rounded-3xl overflow-hidden  group">
+                  <div className="absolute z-10 transition-opacity duration-500 group-hover:opacity-0" />
                   <img
-                    src="/stdnts.jpg"
+                    src="/oan.png"
                     alt="Open Admissions Network Platform"
-                    className="w-full h-auto object-cover rounded-3xl transform transition-transform duration-700 hover:scale-105"
+                    className="w-full h-auto object-contain rounded-3xl transform transition-transform duration-700 hover:scale-101"
                   />
                   {/* Floating Elements */}
-                  <div className="absolute -bottom-6 -left-6 p-4 bg-white dark:bg-gray-900 rounded-2xl shadow-xl border border-border z-20 animate-float">
+                  {/* <div className="absolute -bottom-6 -left-6 p-4 bg-white dark:bg-gray-900 rounded-2xl shadow-xl border border-border z-20 animate-float">
                     <div className="flex items-center gap-3">
                       <div className="w-10 h-10 rounded-full bg-green-100 dark:bg-green-900/30 flex items-center justify-center text-green-600 dark:text-green-400">
                         <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -166,7 +166,7 @@ const Hero = () => {
                         <p className="text-sm font-bold">Verified</p>
                       </div>
                     </div>
-                  </div>
+                  </div> */}
                 </div>
               )}
             </div>
