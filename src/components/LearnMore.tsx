@@ -32,7 +32,7 @@ const LearnMore = () => {
                 </section>
 
                 {/* Core Principle */}
-                <section className="bg-gray-50 py-20 mb-20">
+                <section className="bg-white py-20 mb-20">
                     <div className="container px-4 sm:px-6 lg:px-8 mx-auto">
                         <div className="max-w-4xl mx-auto">
                             <div className="bg-white p-8 rounded-2xl shadow-sm border border-gray-100">
