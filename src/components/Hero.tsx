@@ -116,7 +116,7 @@ const Hero = () => {
               </a>
 
               <a
-                href="/learn-more"
+                href="/learnmore"
                 className="inline-flex items-center justify-center px-8 py-4 text-base font-medium text-foreground transition-all duration-200 bg-white/50 dark:bg-white/5 border border-border rounded-full hover:bg-white/80 dark:hover:bg-white/10 backdrop-blur-sm hover:shadow-md"
               >
                 Learn more
