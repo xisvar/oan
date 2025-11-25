@@ -1,7 +1,7 @@
 
 import React, { useEffect, useRef, useState } from "react";
 import { cn } from "@/lib/utils";
-import { ArrowRight } from "lucide-react";
+import { ArrowRight, Building2, GraduationCap, School, Library } from "lucide-react";
 import LottieAnimation from "./LottieAnimation";
 
 const Hero = () => {
@@ -124,9 +124,16 @@ const Hero = () => {
             </div>
 
             <div className="mt-12 flex items-center gap-4 text-sm text-muted-foreground opacity-0 animate-fade-in" style={{ animationDelay: "0.5s" }}>
-              <div className="flex -space-x-2">
-                {[1, 2, 3, 4].map((i) => (
-                  <div key={i} className="w-8 h-8 rounded-full border-2 border-background bg-gray-200 dark:bg-gray-800" />
+              <div className="flex -space-x-3">
+                {[
+                  { Icon: Building2, bg: "bg-blue-100 dark:bg-blue-900/30 text-blue-600 dark:text-blue-400" },
+                  { Icon: School, bg: "bg-purple-100 dark:bg-purple-900/30 text-purple-600 dark:text-purple-400" },
+                  { Icon: GraduationCap, bg: "bg-emerald-100 dark:bg-emerald-900/30 text-emerald-600 dark:text-emerald-400" },
+                  { Icon: Library, bg: "bg-amber-100 dark:bg-amber-900/30 text-amber-600 dark:text-amber-400" },
+                ].map(({ Icon, bg }, i) => (
+                  <div key={i} className={`w-10 h-10 rounded-full border-2 border-background flex items-center justify-center ${bg}`}>
+                    <Icon className="w-5 h-5" />
+                  </div>
                 ))}
               </div>
               <p>Trusted by 50+ institutions</p>
