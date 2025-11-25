@@ -86,7 +86,7 @@ const Hero = () => {
             </div>
 
             <h1
-              className="text-5xl sm:text-6xl lg:text-7xl font-bold tracking-tight leading-[1.1] mb-6 opacity-0 animate-fade-in"
+              className="text-4xl sm:text-6xl lg:text-7xl font-bold tracking-tight leading-[1.1] mb-6 opacity-0 animate-fade-in"
               style={{ animationDelay: "0.2s" }}
             >
               Open Admissions <br />
